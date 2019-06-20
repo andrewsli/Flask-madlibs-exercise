@@ -43,3 +43,19 @@ story = Story(
     """Once upon a time in a long-ago {place}, there lived a
        large {adjective} {noun}. It loved to {verb} {plural_noun}."""
 )
+
+the_gym = Story(["adjective", "adjective2", "bird_type", "room_in_a_house",
+                "verb_past_tense", "verb", "relative_name", "noun",
+                "liquid", "verb_ing", "plural_body_part", "plural_noun",
+                "verb_ing2", "noun2"],
+
+    """
+    It was a {adjective}, cold November day. I woke up to the
+    {adjective2} smell of {bird_type} roasting in the {room_in_a_house}
+    downstairs. I {verb_past_tense} down the stairs to see if I couljd
+    help {verb} the dinner. My mom said, \"See if {relative_name} needs
+    a fresh {noun}.\" So I carried a tray of glasses full of {liquid} into
+    the {verb_ing} room. When I got there, I couldn't believe my
+    {plural_body_part}! There were {plural_noun} {verb_ing2} on the {noun2}
+    """
+)

@@ -4,11 +4,16 @@
 
 {% block content %} 
 <h1>Madlibs</h1>
-<form action="/story">
-    {%for input in inputs %}
-        {{input}}: <input type="text" name="{{input}}"><br><br>
-    {% endfor %}
+<form action="/madlib">
+    <select name="story-options">
+        {%for story_type in story_types%}
+            <option value="{{story_type}}">{{story_type}}</option>
+        {% endfor %}
+    </select>
     <input type="submit" value="Submit">
 </form>
 
+
+
 {% endblock %}
+
